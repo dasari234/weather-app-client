@@ -107,13 +107,14 @@ export default {
   font-weight: bold;
   color: #fff;
 }
-.city-search {
-  width: 50%;
-}
 .footer {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin: 1rem;
   color: #b7b7b7;
+}
+.container {
+  display: flex;
+  flex-direction: column;
 }
 </style>
