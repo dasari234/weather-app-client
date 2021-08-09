@@ -40,7 +40,8 @@ export default {
     query: null,
   }),
   created() {
-    this.getIP();
+    this.query = sessionStorage.getItem("ip");
+    this.getForecast();
   },
   methods: {
     async getIP() {
