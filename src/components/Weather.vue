@@ -82,6 +82,7 @@ export default {
 .forecast-list {
   display: flex;
   flex-wrap: wrap;
+      justify-content: space-between;
 }
 .forecast-location__name {
   text-align: left;
